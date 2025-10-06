@@ -1,6 +1,8 @@
 <template>
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
   <router-view></router-view>
+  <VueQueryDevtools />
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { VueQueryDevtools } from '@tanstack/vue-query-devtools'
+</script>
